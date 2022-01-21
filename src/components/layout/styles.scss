@@ -1,0 +1,29 @@
+@import "../../variables.scss";
+
+ul.product-list-container {
+    margin-top: 50px;
+    width: 100%;
+
+    li {
+        background-color: $primary-color;
+        border-bottom: 3px solid $primary-border-color;
+        padding: 25px 15px;
+    }
+
+    .quantity-wrapper {
+        min-width: 100px;
+
+        span.number-value {
+            display: inline-block;
+            border: 1px solid #eee;
+            margin: 0 5px;
+            background: #eee;
+            min-width: 30px;
+            padding: 0 5px;
+        }
+
+        span.operator {
+            font-size: 1.5rem;
+        }
+    }
+}
